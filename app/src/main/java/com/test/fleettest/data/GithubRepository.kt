@@ -6,5 +6,5 @@ import com.test.fleettest.Network.RetrofitClient
 class GithubRepository {
     private val retrofit = RetrofitClient.getRetrofitInstance().create(ApiEndPoint::class.java)
 
-    suspend fun getAllRepository() = retrofit.getAllRepo()
+    suspend fun getAllRepository(i: Int) = retrofit.getAllRepo()
 }

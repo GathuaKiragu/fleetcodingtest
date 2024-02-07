@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.test.fleettest.R
+import com.test.fleettest.databinding.RecyclerLayoutBinding
 import com.test.fleettest.data.model.GithubRepositoryModel
 
 class DataAdapter: PagingDataAdapter<GithubRepositoryModel,DataAdapter.MyViewHolder>(DiffCallback) {
